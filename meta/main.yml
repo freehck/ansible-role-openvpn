@@ -1,9 +1,13 @@
 ---
 galaxy_info:
-  author: Konforfor
+  author: Dmitrii Kashin
   description: Ansible role for OpenVPN
   min_ansible_version: 2.0
   platforms:
   - name: Ubuntu
     versions:
-      - xenial
+      - 16.04
+      - 18.04
+  - name: Debian
+    versions:
+      - 9
